@@ -8,3 +8,5 @@ And finally he saves in another folder a copy of the components examples he used
 
 -   If you need to add a certain image a given number of times, you can do it dynamically by using a new class for that.
 Just like it was done with the plan--popular class.
+
+-   For displaying quotes, you can either use q tags (which are inline) or blockquotes (which are block-level).
