@@ -1,0 +1,8 @@
+-   Mosh's personal recomendation is to separate the styles in your stylesheet in groups.
+That means, you may have to separate your media queries as well, even if that means repeating your conditions.
+Yes, you're repeating yourself a little, but you're keeping your document organized. It'll be more maintainable that way.
+
+-   Mosh first identifies the components he'll need.
+Then he defines styles for them, and the needed media queries.
+And finally he saves in another folder a copy of the components examples he used when testing their appareance (HTML).
+
