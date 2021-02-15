@@ -539,3 +539,35 @@ a {
     margin: 0 2rem;
   }
 }
+
+/* Collapsible */
+.collapsible__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.collapsible__heading {
+  margin-top: 0;
+  font-size: 3rem;
+}
+
+.collapsible__chevron {
+  transform: rotate(-90deg);
+  transition: transform 0.3s;
+}
+
+.collapsible__content {
+  max-height: 0; /* we don't use "display: none" because that attribute can't be animated */
+  overflow: hidden; /* setting a max-height to 0 causes overflow, so we can hide the text by hiding the overflow */
+  opacity: 0; /* adds a fading effect */
+  transition: all 0.3s;
+}
+
+.collapsible--expanded .collapsible__chevron {
+  transform: rotate(0);
+}
+
+.collapsible--expanded .collapsible__content {
+  max-height: 100vh; /* this only allows that height for the element, but the actual height will be determined by its container */
+  opacity: 1;
+}
