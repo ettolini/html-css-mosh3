@@ -10,3 +10,6 @@ And finally he saves in another folder a copy of the components examples he used
 Just like it was done with the plan--popular class.
 
 -   For displaying quotes, you can either use q tags (which are inline) or blockquotes (which are block-level).
+
+-   You can add scroll animations with AOS (Animate on Scroll Library), you just need to add the stylesheet, the JavaScript code,
+and add the data-aos="" attribute to your elements, choosing whichever animation you desire.
