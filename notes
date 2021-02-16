@@ -13,3 +13,8 @@ Just like it was done with the plan--popular class.
 
 -   You can add scroll animations with AOS (Animate on Scroll Library), you just need to add the stylesheet, the JavaScript code,
 and add the data-aos="" attribute to your elements, choosing whichever animation you desire.
+
+-   To optimize the occurrences of your web page on search engines, you can customize the document's title and add certain metas
+so your page's info at first glance looks more professional and approachable.
+There's, for example, <meta name="description" content="The web page's description"> which will appear when browsing through sites.
+And also <meta property="og:something">, "og" stands for "Open Graph", you can learn more about it in "ogp.me".
