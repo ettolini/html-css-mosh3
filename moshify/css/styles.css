@@ -209,7 +209,7 @@ a {
   font-weight: 600;
   margin: 1rem 0;
   outline: 0;
-  padding: 2rem 3rem;
+  padding: 2rem 4vw;
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
@@ -300,6 +300,7 @@ a {
   border: 0;
   flex-grow: 1;
   padding: 1.5rem 2rem;
+  width: 0;
 }
 
 .input-group .btn {
@@ -744,11 +745,12 @@ a {
 }
 
 .block-domain__prices {
+  color: var(--color-headings);
   display: grid;
   font-size: 2rem;
   font-weight: 600;
   justify-items: center;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: (2, 6rem);
   max-width: 700px;
   margin: 0 auto; /* automatically applies the same margin horizontally (centering its content) */
@@ -756,10 +758,10 @@ a {
 
 @media screen and (min-width: 768px) {
   .block-domain__prices {
-    /* "autofit" fills the spare space with the values it has, "minmax()" defines a range
+    /* "auto-fit" fills the spare space with the values it has, "minmax()" defines a range
     in this case, minmax() sets the list items to be a minimum of 10rem, if there's spare space inline, their size increases,
     if the lists don't fit in a single line with their minimum width, they'd be sent to another line */
-    grid-template-columns: repeat(autofit, minmax(10rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
 }
 
