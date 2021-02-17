@@ -19,14 +19,15 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <header>
       <nav class="nav collapsible">
-        <a class="na__brand" href="/"><img src="images/logo.svg" alt="" /></a>
+        <a aria-label="Moshify" class="na__brand" href="/"
+          ><img src="images/logo.svg" alt=""
+        /></a>
         <svg class="icon icon--white nav__toggler">
           <use href="images/sprite.svg#menu"></use>
         </svg>
@@ -70,7 +71,10 @@
         </p>
       </header>
       <div class="input-group">
+        <!-- "aria" stands for "accesible rich internet application", we can use it to add labels to our elements
+        mostly for users that rely on screenreaders to browse through the Internet -->
         <input
+          aria-label=""
           type="text"
           class="input"
           placeholder="Enter domain name here..."

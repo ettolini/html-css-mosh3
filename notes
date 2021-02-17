@@ -21,3 +21,6 @@ And also <meta property="og:something">, "og" stands for "Open Graph", you can l
 
 -   Always remember to validate your HTML and CSS documents, you can google "html validator" and "css validator" and paste your code
 in its corresponding validator, to check if there are issues to fix in them.
+
+-   You can import a stylesheet's styles into another stylesheet, that way you'll have to link your HTML doc to less stylesheet.
+And thus, improve your overall site's performance, you just need to use @import "stylesheet's path";
