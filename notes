@@ -18,3 +18,6 @@ and add the data-aos="" attribute to your elements, choosing whichever animation
 so your page's info at first glance looks more professional and approachable.
 There's, for example, <meta name="description" content="The web page's description"> which will appear when browsing through sites.
 And also <meta property="og:something">, "og" stands for "Open Graph", you can learn more about it in "ogp.me".
+
+-   Always remember to validate your HTML and CSS documents, you can google "html validator" and "css validator" and paste your code
+in its corresponding validator, to check if there are issues to fix in them.
