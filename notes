@@ -27,5 +27,6 @@ to check if there are issues to fix in them.
 And thus, improve your overall site's performance, you just need to use @import "stylesheet's path";
 
 -   BUILD FOR PRODUCTION:   Type in terminal: "npm init -y"
+                            Type in terminal: "npm i -D parcel-bundler"
                             add .gitignore file, in it, add ".cache/" and "dist/" folders ("node_modules/" too if you have it)
-                            Type in terminal: "parcel build maindocument.html"
+                            Type in terminal: "parcel build index.html"
