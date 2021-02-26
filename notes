@@ -1,26 +1,31 @@
--   Mosh's personal recomendation is to separate the styles in your stylesheet in groups.
+-   STYLESHEET BEST PRACTICES:  Mosh's personal recomendation is to separate the styles in your stylesheet in groups.
 That means, you may have to separate your media queries as well, even if that means repeating your conditions.
 Yes, you're repeating yourself a little, but you're keeping your document organized. It'll be more maintainable that way.
 
--   Mosh first identifies the components he'll need.
+-   STYLESHEET BEST PRACTICES, PART TWO:    Mosh first identifies the components he'll need.
 Then he defines styles for them, and the needed media queries.
 And finally he saves in another folder a copy of the components examples he used when testing their appareance (HTML).
 
--   If you need to add a certain image a given number of times, you can do it dynamically by using a new class for that.
-Just like it was done with the plan--popular class.
+-   ADD IMAGGES DYNAMICALLY:    If you need to add a certain image a given number of times,
+you can do it dynamically by using a new class for that. Just like it was done with the plan--popular class.
 
--   For displaying quotes, you can either use q tags (which are inline) or blockquotes (which are block-level).
+-   DISPLAY QUOTES: For displaying quotes, you can either use q tags (which are inline) or blockquotes (which are block-level).
 
--   You can add scroll animations with AOS (Animate on Scroll Library), you just need to add the stylesheet, the JavaScript code,
-and add the data-aos="" attribute to your elements, choosing whichever animation you desire.
+-   SCROLL ANIMATIONS:  You can add scroll animations with AOS (Animate on Scroll Library), you just need to add the stylesheet,
+the JavaScript code, and add the data-aos="" attribute to your elements, choosing whichever animation you desire.
 
--   To optimize the occurrences of your web page on search engines, you can customize the document's title and add certain metas
-so your page's info at first glance looks more professional and approachable.
+-   OPTIMIZE SEARCH ENGINE OCCURRENCES: To optimize the occurrences of your web page on search engines,
+you can customize the document's title and add certain metas so your page's info at first glance looks more professional and approachable.
 There's, for example, <meta name="description" content="The web page's description"> which will appear when browsing through sites.
 And also <meta property="og:something">, "og" stands for "Open Graph", you can learn more about it in "ogp.me".
 
--   Always remember to validate your HTML and CSS documents, you can google "html validator" and "css validator" and paste your code
-in its corresponding validator, to check if there are issues to fix in them.
+-   VALIDATE YOUR PAGE: Always remember to validate your HTML and CSS documents,
+you can google "html validator" and "css validator" and paste your code in its corresponding validator,
+to check if there are issues to fix in them.
 
--   You can import a stylesheet's styles into another stylesheet, that way you'll have to link your HTML doc to less stylesheet.
+-   IMPORT STYLES:  You can import a stylesheet's styles into another stylesheet, that way you'll have to link your HTML doc to less stylesheet.
 And thus, improve your overall site's performance, you just need to use @import "stylesheet's path";
+
+-   BUILD FOR PRODUCTION:   Type in terminal: "npm init -y"
+                            add .gitignore file, in it, add ".cache/" and "dist/" folders ("node_modules/" too if you have it)
+                            Type in terminal: "parcel build maindocument.html"
